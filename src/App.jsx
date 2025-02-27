@@ -1,7 +1,12 @@
+import { Link } from "react-router-dom";
+
 function App() {
   return (
     <>
-      <h1>I have sucessfully deployed</h1>
+      <h1>I have successfully deployed</h1>
+      <Link to={"/test"}>To the test site</Link>
+      <br />
+      <a href="/test">Ship o´hoy</a>
     </>
   );
 }
